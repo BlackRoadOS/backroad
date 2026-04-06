@@ -1,0 +1,19 @@
+name = "backroad-blackroad"
+main = "src/worker.js"
+compatibility_date = "2026-03-31"
+
+[[routes]]
+pattern = "backroad.blackroad.io/*"
+zone_name = "blackroad.io"
+
+[[routes]]
+pattern = "social.blackroad.io/*"
+zone_name = "blackroad.io"
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "backroad-social"
+database_id = "bf074bed-fa02-40b9-af74-789255c961f7"
